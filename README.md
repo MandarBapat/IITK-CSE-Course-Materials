@@ -10,7 +10,7 @@ I have tried to compile everything that I had collected during my journey. I wil
 
 This repo contains the study material for all the courses that I have completed till now and some other study material also.(_Will keep on updating till my B.Tech finishes_)
 
-Do check out my friend's repo **Harsh Kumar** [Github Repo](https://github.com/phoenix-23/IITK-EE) for more resources 😊😊. He has excellently compiled all course materials and his experiences.
+Do check out my friend's repo **Harsh Kumar :** [Github Repo](https://github.com/phoenix-23/IITK-EE) 😊😊. He has excellently compiled all course materials and his experiences.
 
 To contribute to this repo, you can always initiate a pull request.
 
