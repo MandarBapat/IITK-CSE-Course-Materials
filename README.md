@@ -1,6 +1,7 @@
 # IITK-CSE-Course-Materials
 
 **Hello!!!**
+
 My name is **Mandar Bapat**, a **Y19 CSE** undergraduate student at IITK. You probably stumbled across this repo maybe because its your Mid-Sem or End-Sem exam tomorrow and you cannot find previous year papers or maybe you just want to know more about the course. There were times, when I myself wanted some good resources but either the websites were taken down or they had the same repititive content. In some courses, I discovered resources that were very helpful but these were not known to many students. At other times, I wanted guidance on some specific topics of the course, but could not as most of the resource websites had very general description about the course. I found that a single reference book was not good for all the topics of the course.
 
 I have tried to compile everything that I had collected during my journey. I will also give a brief description about the course, course instructor, the instructor's marking scheme and how I prepared for it(or how I should have prepared for it😅😅). I have also provided topic specific resources also(which are very important from exam point of view).
