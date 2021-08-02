@@ -11,4 +11,5 @@ I have tried to compile everything that I had collected during my journey. I wil
 This repo contains the study material for all the courses that I have completed till now and some other study material also.(_Will keep on updating till my B.Tech finishes_)
 
 To contribute to this repo, you can always initiate a pull request.
-If you want to contact me, suggest something to the repo or want to discuss about my experiences at IITK, you can always DM me on [Facebook](https://www.facebook.com/mandar.bapat.54/) or [LinkedIn](https://www.linkedin.com/in/mandar-bapat/).
+
+If you want to suggest something to the repo or want to discuss about my experiences at IITK, you can always DM me on [Facebook](https://www.facebook.com/mandar.bapat.54/) or [LinkedIn](https://www.linkedin.com/in/mandar-bapat/).
