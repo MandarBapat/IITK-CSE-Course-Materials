@@ -1,0 +1,1 @@
+The data memory is initialized in the "A8Q1_processor.v" file in an initial block.

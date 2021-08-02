@@ -1,0 +1,46 @@
+#! /c/iverilog/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-965-g55e06db6)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "C:\iverilog\lib\ivl\system.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\va_math.vpi";
+S_0000000001056310 .scope module, "one_bit_adder" "one_bit_adder" 2 1;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "a";
+    .port_info 1 /INPUT 1 "b";
+    .port_info 2 /INPUT 1 "cin";
+    .port_info 3 /INPUT 1 "opcode";
+    .port_info 4 /OUTPUT 1 "sum";
+    .port_info 5 /OUTPUT 1 "cout";
+o00000000008a70c8 .functor BUFZ 1, C4<z>; HiZ drive
+o00000000008a7158 .functor BUFZ 1, C4<z>; HiZ drive
+L_000000000105d2d0 .functor XOR 1, o00000000008a70c8, o00000000008a7158, C4<0>, C4<0>;
+o00000000008a7098 .functor BUFZ 1, C4<z>; HiZ drive
+L_0000000001056530 .functor XOR 1, o00000000008a7098, L_000000000105d2d0, C4<0>, C4<0>;
+o00000000008a70f8 .functor BUFZ 1, C4<z>; HiZ drive
+L_00000000010565a0 .functor XOR 1, L_0000000001056530, o00000000008a70f8, C4<0>, C4<0>;
+L_0000000001056610 .functor AND 1, o00000000008a7098, L_000000000105d2d0, C4<1>, C4<1>;
+L_00000000008a1810 .functor AND 1, o00000000008a7098, o00000000008a70f8, C4<1>, C4<1>;
+L_00000000008a1880 .functor OR 1, L_0000000001056610, L_00000000008a1810, C4<0>, C4<0>;
+L_00000000008a1d50 .functor AND 1, o00000000008a70f8, L_000000000105d2d0, C4<1>, C4<1>;
+L_00000000008a1960 .functor OR 1, L_00000000008a1880, L_00000000008a1d50, C4<0>, C4<0>;
+v0000000001058630_0 .net *"_ivl_10", 0 0, L_00000000008a1880;  1 drivers
+v000000000105d230_0 .net *"_ivl_12", 0 0, L_00000000008a1d50;  1 drivers
+v000000000105bc50_0 .net *"_ivl_2", 0 0, L_0000000001056530;  1 drivers
+v000000000105bcf0_0 .net *"_ivl_6", 0 0, L_0000000001056610;  1 drivers
+v000000000105bd90_0 .net *"_ivl_8", 0 0, L_00000000008a1810;  1 drivers
+v000000000105be30_0 .net "a", 0 0, o00000000008a7098;  0 drivers
+v00000000008a0890_0 .net "b", 0 0, o00000000008a70c8;  0 drivers
+v00000000008a0a70_0 .net "cin", 0 0, o00000000008a70f8;  0 drivers
+v00000000008a07f0_0 .net "cout", 0 0, L_00000000008a1960;  1 drivers
+v00000000008a0c50_0 .net "opcode", 0 0, o00000000008a7158;  0 drivers
+v00000000008a11f0_0 .net "sum", 0 0, L_00000000010565a0;  1 drivers
+v00000000008a0cf0_0 .net "temp", 0 0, L_000000000105d2d0;  1 drivers
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "A4Q2_one_bit_adder.v";
